@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyPlayList</title>
+    <script>
+        function addSongs() {
+            var song1 = document.getElementById("song1");
+            var song2 = document.getElementById("song2");
+            var song3 = document.getElementById("song3");
+            song1.innerHTML = "Blue suede String, by Elvis pagely";
+            song2.innerHTML = "Great object on fire";
+            song3.innerHTML = "I code the line";
+        }
+        window.onload=addSongs;
+    </script>
+</head>
+<body>
+<h1>awesome playlist</h1>
+<ul id="playlist">
+    <li id="song1"></li>
+    <li id="song2"></li>
+    <li id="song3"></li>
+</ul>
+</body>
+</html>
