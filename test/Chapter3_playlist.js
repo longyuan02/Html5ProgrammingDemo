@@ -14,9 +14,10 @@ function handleButtonClick() {//点击事件
     if (value == "") {
         alert("please enter a song");
     } else {
-        addSongs(value);
-        alert("adding " + value);
-        save(value);
+        // addSongs(value);
+        alert("adding " + value+"**"+fido.weight);
+            // save(value);
+
     }
     function addSongs(songName) {
         var li = document.createElement("li");
