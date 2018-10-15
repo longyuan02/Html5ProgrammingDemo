@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta http-equiv="Access-Control-Allow-Origin" content="http://www.1688hot.com:80">
+    <meta charset="UTF-8">
+    <title>Mighty Gumball</title>
+    <script type="text/javascript">
+//                var url = "http://10.90.0.26/webapp/user/challenger/save?iByChallenger=314&iChallenger=284";
+//        var url = "http://localhost:63342/testJsonData.json";/63342 本地地址文件放在本地位置
+        var request = new XMLHttpRequest();
+        request.open("GET", url);
+        request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");//缺少这句，后台无法获取参数
+        request.send(null);
+        request.onload = function () {
+            if (request.status == 200) {
+                alert("Data recieve!")
+            } else {
+                alert("Data erro!")
+            }
+        }
+
+    </script>
+</head>
+<body>
+<h1>Myghty Gumball Sales</h1>
+<div id="sales"></div>
+</body>
+</html>

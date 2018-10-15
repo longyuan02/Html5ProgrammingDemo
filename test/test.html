@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function loadXMLDoc() {
+            $.ajax({
+                type: "get",
+                url: "https://www.baidu.com",
+                async: true,
+                success: function (data) {
+                    alert(data)
+                }, error: function (data) {
+                    alert(data)
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+
+<h2>AJAX</h2>
+<button type="button" onclick="loadXMLDoc()">请求数据</button>
+<div id="myDiv"></div>
+
+</body>
+</html>
