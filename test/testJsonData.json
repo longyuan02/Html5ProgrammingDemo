@@ -1,0 +1,5 @@
+{
+success: true,
+message: "发起挑战失败，只能向比自己步数高的对象发起挑战 ",
+entity: 105
+}
