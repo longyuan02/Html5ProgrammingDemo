@@ -1,0 +1,28 @@
+/*#tb,td,th,tb{*/
+    /*border: 1px solid black;*/
+    /*text-align: center;*/
+    /*background-color: aliceblue;*/
+/*}*/
+/*#tb{*/
+/*!*合并边框*!*/
+    /*border-collapse:collapse;*/
+    /*width:400px;*/
+    /*height: 400px;*/
+/*}*/
+#tb{
+    border-collapse: collapse;
+    width:500px;
+}
+#tb td,#tb th{
+    border:1px solid bisque;
+    padding: 5px;
+}
+#tb th{
+    text-align: left;
+    background-color: aqua;
+    color: #FFFFFF;
+}
+#tb tr.alt td{
+    color: #000;
+    background-color: aquamarine;
+}

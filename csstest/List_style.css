@@ -1,0 +1,9 @@
+/*ul li {*/
+    /*list-style-image: url("../image/main_footer_information_normal_gray.png");*/
+/*}*/
+ul.ul1{
+    list-style-position: inside;
+}
+ul.ul2{
+    list-style-position: outside;
+}
